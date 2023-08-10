@@ -101,6 +101,7 @@ persist.vendor.camera.preview.ubwc=0
 persist.vendor.camera.HAL3.enabled=1
 persist.vendor.camera.perflock.enable=0
 persist.vendor.camera.dual.isp.sync=0
+vendor.camera.aux.packagelist=com.android.camera,org.lineageos.aperture.dev,com.voltage.flash
 
 # Codec2 switch
 debug.stagefright.omx_default_rank.sw-audio=1

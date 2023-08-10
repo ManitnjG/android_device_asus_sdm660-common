@@ -344,6 +344,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+PRODUCT_PACKAGES += \
+    FlashOverlay
+
 # Permissions
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/privapp-permission/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
